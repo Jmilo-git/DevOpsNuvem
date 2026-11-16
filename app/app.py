@@ -1,7 +1,7 @@
 import os
 from flask import Flask, jsonify
 # ===== VARIAÇÃO DA DUPLA (mude estes valores) =====
-NOME_DUPLA = "dupla-19"
+NOME_DUPLA = "GHSJMO19"
 MENSAGEM = "Ola da minha API"
 PORTA = 8080
 # ==================================================
