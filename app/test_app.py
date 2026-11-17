@@ -1,4 +1,4 @@
-docker rm -f apifrom app import app, MENSAGEM, NOME_DUPLA
+from app import app, MENSAGEM, NOME_DUPLA
 def test_saude_responde_ok():
  resposta = app.test_client().get("/saude")
  assert resposta.status_code == 200
