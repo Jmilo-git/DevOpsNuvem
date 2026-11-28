@@ -31,6 +31,6 @@ Para evitar esse problema, poderia ser acrescentado um teste de integração ao 
 Participou da configuração da página de status utilizando GitHub Pages, verificou as permissões e a visibilidade da imagem no GHCR e realizou o rollback no repositório utilizando `git revert`, permitindo corrigir a alteração que causou o problema na versão v2.
 
 **Aluno B:**
-
+Configurou o workflow de publicação das imagens Docker, utilizando o GitHub Actions e o GitHub Container Registry. Publicou a primeira versão da aplicação (v1) e realizou a simulação da falha na versão v2, alterando a porta em que a API escutava. Também participou da execução dos contêineres, identificação do problema e verificação das versões após os rollbacks.
 
 
